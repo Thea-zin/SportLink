@@ -1,0 +1,27 @@
+# Global ignores
+.DS_Store
+*.log
+*.env
+
+# Backend-specific ignores (Django)
+backend/__pycache__/
+backend/*.pyc
+backend/db.sqlite3
+backend/media/
+backend/staticfiles/
+backend/.env
+backend/.venv/
+
+# Frontend-specific ignores (Node.js, React, Vue, Angular)
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/*.log
+frontend/*.lock
+frontend/.cache/
+
+# Editor and IDE-specific ignores
+.vscode/
+.idea/
+*.swp
